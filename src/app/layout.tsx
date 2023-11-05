@@ -1,5 +1,4 @@
 import {Plus_Jakarta_Sans} from 'next/font/google'
-import Providers from '~/app/providers'
 import BackgroundGrid from '~/components/BackgroundGrid'
 import Nav from '~/components/Nav'
 import {META} from '~/constants/metadata'
@@ -21,14 +20,12 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
 	return (
 		<html lang='en'>
 			<body
-				className={`${font.className} relative flex h-full min-h-screen w-full flex-col items-center`}>
-				<Providers>
-					<BackgroundGrid className='fixed h-full w-full opacity-30 dark:opacity-40' />
-					<Nav title={'> npx create-rubric-app'} />
-					<div className='z-10 flex w-full max-w-3xl items-center justify-center'>
-						{children}
-					</div>
-				</Providers>
+				className={`${font.className} relative flex h-full min-h-screen w-full flex-col items-center bg-white dark:bg-black`}>
+				<BackgroundGrid className='fixed h-full w-full opacity-30' />
+				<Nav title={'Chat NYC'} />
+				<div className='z-10 flex w-full max-w-3xl items-center justify-center'>
+					{children}
+				</div>
 			</body>
 		</html>
 	)
