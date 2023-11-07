@@ -1,8 +1,8 @@
 Context about this product:
 
-[ChatNYC](https://rubric.notion.site/ChatNYC-c62e6eee06424cfc9530700fb6673d50?pvs=4) is a generally helpful public good initiative that aims to give New Yorkers a chatbot to interface with the city. The first use case is How to get from Rector St and Greenwich St to East 86 and East End ave? - the service should provide transit directions using reasoning and maps of the city - (no algorithms or external apis)
+[ChatNYC](https://rubric.notion.site/ChatNYC-c62e6eee06424cfc9530700fb6673d50?pvs=4) is a generally helpful public good initiative that aims to give New Yorkers a chatbot to interface with the city. The first use case is `How to get from Rector St and Greenwich St to East 86 and East End ave?` - the service should provide transit directions using reasoning and maps of the city - (no algorithms or external apis)
 
-If we can get reliability close to google maps - it should be pretty cool since you’ll be able to do multi-stop, multi-method transit paths such as Get me from X to Y but put a stop for pizza on the way - oh and you can use trains, city-bike and / or ubers, whatever makes the most sense (this is very out of scope for GMaps)
+If we can get reliability close to google maps - it should be pretty cool since you’ll be able to do multi-stop, multi-method transit paths such as `Get me from X to Y but put a stop for pizza on the way - oh and you can use trains, city-bike and / or ubers, whatever makes the most sense` (this is very out of scope for GMaps)
 
 Also a core tenant of this product is that it’s accessible via toll free SMS so u don’t need wifi, data, an account or a credit card.
 
