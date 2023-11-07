@@ -8,7 +8,7 @@ Also a core tenant of this product is that it’s accessible via toll free SMS s
 
 [Kinda works](https://nyc.rubriclabs.com) - will turn off data and go get lost downtown tomorrow and see if it’s remotely okay!
 
-P.S. Looking for collaborators (everything OS ofc) to [help parse GTFS data](https://nyc.rubriclabs.com/api/test) so we can do realtime transit i.e. when's the A Train headed Westbound coming to Ralph -> 4 mins
+P.S. Looking for collaborators (everything OS ofc) to [help parse GTFS data](https://nyc.rubriclabs.com/api/test) so we can do realtime transit i.e. `When's the A Train headed Westbound coming to Ralph` -> `4 mins`
 
 This project is bootstrapped with [`create-rubric-app`](https://github.com/RubricLab/create-rubric-app).
 
