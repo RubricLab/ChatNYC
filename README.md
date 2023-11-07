@@ -1,4 +1,4 @@
-Context about this product:
+# :statue_of_liberty: ChatNYC
 
 [ChatNYC](https://rubric.notion.site/ChatNYC-c62e6eee06424cfc9530700fb6673d50?pvs=4) is a generally helpful public good initiative that aims to give New Yorkers a chatbot to interface with the city. The first use case is `How to get from Rector St and Greenwich St to East 86 and East End ave?` - the service should provide transit directions using reasoning and maps of the city - (no algorithms or external apis)
 
