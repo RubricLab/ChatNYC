@@ -22,7 +22,8 @@ export const env = createEnv({
 		NODE_ENV: process.env.NODE_ENV,
 		TWILIO_NUMBER: process.env.TWILIO_NUMBER,
 		TWILIO_ACCOUNT_SID: process.env.TWILIO_ACCOUNT_SID,
-		TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN
+		TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN,
+		MTA_API_KEY: process.env.MTA_API_KEY
 	},
 
 	/**
@@ -36,6 +37,7 @@ export const env = createEnv({
 		NODE_ENV: z.string(),
 		TWILIO_NUMBER: z.string().min(1),
 		TWILIO_ACCOUNT_SID: z.string().min(1),
-		TWILIO_AUTH_TOKEN: z.string().min(1)
+		TWILIO_AUTH_TOKEN: z.string().min(1),
+		MTA_API_KEY: z.string().min(1)
 	}
 })
