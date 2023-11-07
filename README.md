@@ -1,49 +1,27 @@
-# Create Rubric App
+Context about this product:
+
+[ChatNYC](https://rubric.notion.site/ChatNYC-c62e6eee06424cfc9530700fb6673d50?pvs=4) is a generally helpful public good initiative that aims to give New Yorkers a chatbot to interface with the city. The first use case is How to get from Rector St and Greenwich St to East 86 and East End ave? - the service should provide transit directions using reasoning and maps of the city - (no algorithms or external apis)
+
+If we can get reliability close to google maps - it should be pretty cool since you’ll be able to do multi-stop, multi-method transit paths such as Get me from X to Y but put a stop for pizza on the way - oh and you can use trains, city-bike and / or ubers, whatever makes the most sense (this is very out of scope for GMaps)
+
+Also a core tenant of this product is that it’s accessible via toll free SMS so u don’t need wifi, data, an account or a credit card.
+
+[Kinda works](https://nyc.rubriclabs.com) - will turn off data and go get lost downtown tomorrow and see if it’s remotely okay!
+
+P.S. Looking for collaborators (everything OS ofc) to [help parse GTFS data](https://nyc.rubriclabs.com/api/test) so we can do realtime transit i.e. when's the A Train headed Westbound coming to Ralph -> 4 mins
 
 This project is bootstrapped with [`create-rubric-app`](https://github.com/RubricLab/create-rubric-app).
 
 ## Getting Started
 
 ### 1. Install dependencies
-
-```sh
-npm i
-```
-
 ```sh
 bun i
 ```
 
-### 2. Set up the DB
-
-```sh
-npm run db:push
-```
-
-```sh
-bun db:push
-```
-
 ### 3. Run the development server
-
-```sh
-npm run dev
-```
-
 ```sh
 bun dev
 ```
 
 Open [localhost:3000](http://localhost:3000) in your browser to see the result.
-
-You can start modifying the UI by editing [src/app/page.tsx](./src/app/page.tsx). The page auto-updates as you edit the file.
-
-### Deployment
-
-To serve your app to users, simply deploy the Next.js app eg. on [Railway](https://railway.app/new) or [Vercel](https://deploy.new/).
-
-To persist data, you'll need a database. Both [Railway](https://docs.railway.app/databases/postgresql) and [Vercel](https://vercel.com/docs/storage/vercel-postgres) provide Postgres DBs. You'll simply need to change the [Prisma provider](./prisma/schema.prisma) to `"postgresql"` (and add an extra URL for Vercel: [example](https://github.com/vercel/examples/blob/main/storage/postgres-prisma/prisma/schema.prisma#L9C1-L11C74)).
-
-## Learn More
-
-To learn more about this project, take a look at this [blog post](https://rubriclabs.com/blog/cra).
