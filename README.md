@@ -13,14 +13,8 @@ P.S. Looking for collaborators (everything OS ofc) to [help parse GTFS data](htt
 This project is bootstrapped with [`create-rubric-app`](https://github.com/RubricLab/create-rubric-app).
 
 ## Getting Started
-
-### 1. Install dependencies
 ```sh
 bun i
-```
-
-### 3. Run the development server
-```sh
 bun dev
 ```
 
